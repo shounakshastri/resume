@@ -14,6 +14,12 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -93,8 +99,11 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{\Large Shounak Shastri}
+   & \href{https://shounakshastri.github.io}{https://shounakshastri.github.io}\\
+  Email : \href{mailto: shounak.shastri@gmail.com}{shounak.shastri@gmail.com}
+  & \href{https://www.linkedin.com/in/shounak-shastri/}{https://www.linkedin.com/in/shounak-shastri/}\\
+  Mobile : (+91) 86809 31795 & Address: 2 - Shankar Nagar, Nagpur - 440010\\
 \end{tabular*}
 
 
@@ -102,25 +111,27 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+      {Vellore Institute of Technology}{Vellore, TN, India}
+      {Doctorate (Ph.D.) in Steganography Algorithms}{Jun.2015 -- Dec. 2020}
+     \resumeSubheading
+      {Vellore Institute of Technology}{Vellore, TN, India}
+      {Master of Technology (M.Tech.) in Communication Engineering}{Jun.2013 -- May. 2015}
     \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+      {K. J. Somaiya College of Engineering}{Mumbai, MH, India}
+      {Bachelor of Engineering (B.E.) in Electronics Engineering}{Aug. 2007 -- July. 2012}
   \resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
+      {VIT--Vellore}{Vellore, TN, IN}
+      {Teaching cum Research Assistant (4 years)}{Jan. 2016 -- Jan. 2020}
       \resumeItemListStart
-        \resumeItem{Tensorflow}
+        \resumeItem{Teaching}
           {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
-        \resumeItem{Apache Beam}
+        \resumeItem{Research}
           {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
       \resumeItemListEnd
       
@@ -134,77 +145,51 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \resumeSubItem{Dual Image RDH with Trinary Encoding}
+      {Devised a dual image steganography algorithm using a novel encoding technique called Trinary Encoding. Published in peer-reviewed international journal with Impact Factor 2.479.}
+    \resumeSubItem{PEE based Dual Image RDH}
+      {Modified the common PEE scheme to fit the Dual Image Steganography scenario. Resulted in an 100\% increase in the Embedding Capacity. Presented and published in IEEE International Conference.}
+    \resumeSubItem{Word Predictor (NLP)}
+      {Implemented a n-gram word predictor in R.} \href{link}{https://shounakshastri.github.io/blogposts/}\\
+    \resumeSubItem{Browser Based Object Classification}
+      {Developed browser based object classification using TensorflowJS. Used Transfer Learning to train a MobileNet Neural Network}
   \resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+      \textbf{Programming Languages}{: Python, R, Matlab}}
+    \item{
+      \textbf{Technologies}{: OpenCV, Numpy, Scipy, Tensorflow, Scikit Learn, NLTK, Matplotlib, Trax}
+    }
+  \resumeSubHeadingListEnd
 
+%---------Publications and Awards-------
+\section{Publications and Awards}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{Research Awards}{VIT - Vellore, TN, IN}
+			{}{2016, 2017}
+			
+			{Awarded for research work carried out on Steganography algorithms.}
+		\resumeSubheading{Best Paper Award}{VITEEE}{IEEE International Conference, Vellore}{2019}
+		\resumeSubheading{Journal Publications}{}{}{}
+			\resumeItemListStart
+				\resumeItem{}{S. Shastri and V. Thanikaiselvan, “Dual image reversible data hiding using trinary assignment and centre folding strategy with low distortion,” J. Vis. Commun. Image Represent., vol. 61, pp. 130–140, May 2019. DOI: https://doi.org/10.1016/j.jvcir.2019.03.022
+					}
+				\resumeItem{}{V. Thanikaiselvan, S. Shastri, and S. Ahmad, “Information hiding: Steganography,” Stud. Comput. Intell., vol. 660, pp. 65–91, 2017. DOI: https://doi.org/10.1007/978-3-319-44790-2\_4}
+				\resumeItem{}{S. Shastri and V. Thanikaiselvan, “PVO based Reversible Data Hiding with improved embedding capacity and security,” Indian J. Sci. Technol., vol. 9, no. 5, 2016.
+				}
+			\resumeItemListEnd
 
+	\resumeSubHeadingListEnd
 %-------------------------------------------
 \end{document}
