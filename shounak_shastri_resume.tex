@@ -8,6 +8,8 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage{lastpage}
 \hypersetup{
 	colorlinks=true,
 	linkcolor=blue,
@@ -21,9 +23,10 @@
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
-\fancyfoot{}
+\fancyfoot[C]{Shounak Shastri \textbar\ Page \thepage\ of \pageref{LastPage}}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
@@ -100,42 +103,41 @@
   Mobile: (+91) 86809 31795 & Address: 2 - Shankar Nagar, Nagpur - 440010\\
 \end{tabular*}
 
+%-----------SUMMARY-------------------
+\section{Summary}
+  \justify
+    Ph.D. in Steganography with 3+ years of experience in developing and deploying computer vision solutions for industrial safety and productivity. Proven track record of prototyping scalable AI models and collaborating with cross-functional teams to deliver impactful results. 
+  
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
       {KamerAI Pvt. Ltd.}{Chennai, TN, IN}
       {Sr. Software Engineer (3+ years)}{May. 2021 -- Present}
-      \begin{itemize}
-      \item {Built Proof Of Concepts and created data pipelines for computer vision applications in a fast paced environment.}\vspace{-5pt}
-	    \item {Collaborated with internal engineering and product teams and while working closely with clients to create data driven insights.}\vspace{-5pt}
-	    \item {Mentored 5+ trainees and interns in model training and testing pipelines.}\vspace{-5pt}
+      \begin{itemize}[leftmargin=*, itemsep = -2pt]
+      \item {Built prototypes and created end-to-end data pipelines to deploy Object Detection and Activity Recognition in industrial environments.}
+      \item {Designed and built ML pipelines for inexperienced staff to work with data and train models in a fast paced and dynamic work environment.}
+	    \item {Collaborated with internal engineering and product teams and while working closely with clients to design Computer Vision models tailored to industrial safety and compliance needs, directly affecting productivity metrics.}
+	    \item {Mentored 5+ trainees and interns in model training and testing pipelines.}
       \end{itemize}
     \resumeSubheading
       {VIT--Vellore}{Vellore, TN, IN}
       {Teaching and Research Assistant (4 years)}{Jan. 2016 -- Jan. 2020}
-      \begin{itemize}
-        \item {Taught courses to classes of over 60 students and assisted the professors in devising practical experiments, tests and revision sessions.}\vspace{-5pt}
-        \item {Researched Steganography algorithms for secure communication. Credited with 6 publications in reputed peer-reviewed venues.}\vspace{-5pt}
-        \item {Mentored over 30 undergraduate students to convert their projects into prototypes and publishable products}\vspace{-4pt}
+      \begin{itemize}[leftmargin=*, itemsep = -2pt]
+        \item {Researched Steganography algorithms for secure communication. Credited with 6 publications in reputed peer-reviewed publications.}
+        \item {Taught courses to classes of over 60 students and assisted the professors in devising practical experiments, tests and revision sessions.}
+        \item {Mentored over 30 undergraduate students leading to multiple conference presentations and prototypes.}
       \end{itemize}
   \resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{Projects}
-  \resumeItemListStart
-    \resumeSubItem{Barcode Detection}
-      {Created the data processing pipeline and trained light weight models for detecting and decoding PDF417 codes. The models detected the codes irrespective of their orientation and were capable of runnning on CPU.}
-      
-    \resumeSubItem{Face Recognition}
-      {Collected Data and created a Data Cleaning and Annotation pipeline for recognizing faces in an industrial environment. Developed models using a novel loss function for detecting and recognizing faces of Indian and Asian origin with 99\% accuracy.}
-
-    \resumeSubItem{KamerAI Safety Solution}
-      {Worked as part of a team to develop Risk Detection, Object Monitoring and Compliance application for deployment at the client's warehouses and factories. Leveraged the client's established CCTV network to collect data for monitoring PPE and MHE compliance.}
-    
-    \resumeSubItem{KamerAI Productivity Solution}
-      {Owned the data science development for the KamerAI Productivity Solution for a major manufacturing client. Worked with the client and the KamerAI team to develop dashboards to give insights into the client's productivity and ergonomics data. Trained and deployed models at 5 manufacturing stages resulting in a 100\% reduction of errors in one of the stages.}
-  \resumeItemListEnd
+  \begin{itemize}[leftmargin=*, itemsep = -2pt]
+    \item {\textbf{Barcode Detection:} Created the data processing pipeline and trained light weight models for detecting and decoding PDF417 codes resulting in 1.5x reduction in the computation cost.}
+    \item {\textbf{Face Recognition:} Set up the data and model training pipeline for recognizing faces in an industrial environment. Developed embedding models for detecting and recognizing faces of Indian and Asian origin with 99\% accuracy.}
+    \item {\textbf{Kamerai Safety Solution:} Worked as part of a team to develop Risk Detection, Object Monitoring and Compliance application for deployment at the client's warehouses and factories. Leveraged the client's established CCTV network to collect data for monitoring PPE and MHE compliance.}
+    \item {\textbf{Kamerai Productivity Solution:} Owned the development and deployment of the KamerAI Productivity Solution for a major manufacturing client. Collaborated with the client and the KamerAI team to develop productivity and ergonomics dashboards. Trained and deployed ML models across 5 manufacturing stages. Achieved 100\% reduction of errors in 2 stages and enhancing overall efficiency.}
+  \end{itemize}
 
 %-----------EDUCATION-----------------
 \section{Education}
@@ -151,26 +153,21 @@
       {Bachelor of Engineering (B.E.) in Electronics Engineering}{Aug. 2007 -- July. 2012}
   \resumeSubHeadingListEnd
 
-%--------PROGRAMMING SKILLS------------
+%--------SKILLS------------
 \section{Skills}
-	\begin{itemize}[leftmargin=*, itemsep = -4pt]
-		\item{\textbf{Programming/Scripting Languages}{: Python, R, Matlab}}
-		\item{\textbf{Technologies}{: OpenCV, TensorFlow, Scipy, Scikit Learn, NLTK, Matplotlib}}
-		\item {Experience using Linux and familiarty with AWS compute and storage products.}
+	\begin{itemize}[leftmargin=*, itemsep = -2pt]
+		\item{\textbf{Programming/Scripting Languages:}{ Python, R, Matlab}}
+		\item{\textbf{Toolkits/Packages:}{ OpenCV, TensorFlow, Pytorch, Scipy, Scikit Learn, Pandas, Matplotlib, Nvidia TAO, Ultralytics}}
+		\item{Statistical analysis, experimental design}
+    \item{Experience using Linux with git for version control and familiarty with AWS compute (EC2) and storage products (S3).}
 	\end{itemize}
 
 %---------Publications and Awards-------
-\section{Awards and Publications}
+\section{Publications}
 	\begin{itemize}[leftmargin=*, itemsep = -4pt]
-		\item \textbf{Research Awards: }{Awarded for research work carried out on Steganography algorithms at VIT-Vellore.}
-		\item \textbf{Peer-reviewed Journal Publications:}
-			\begin{itemize}[leftmargin=*, itemsep = -2pt, topsep = -4pt]
-				\item{S.Shastri and V.Thanikaiselvan, “Dual image reversible data hiding using trinary assignment and centre folding strategy with low distortion,” J. Vis. Commun. Image Represent., vol. 61, May 2019. \href{https://doi.org/10.1016/j.jvcir.2019.03.022}{Link}}
-				\item{V.Thanikaiselvan, S.Shastri, and S.Ahmad, “Information hiding: Steganography,” Stud. Comput. Intell., vol. 660, 2017. \href{https://doi.org/10.1007/978-3-319-44790-2\_4}{Link}}
-        \item{S.Shastri and V.Thanikaiselvan, “Dual Image Reversible Data Hiding Using Rhombus Prediction,” in 2019 International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN), 2019. \href{https://doi.org/10.1109/ViTECoN.2019.8899667}{Link}}
-      \end{itemize}
-				
-	\end{itemize}
-			
+    \item{S.Shastri and V.Thanikaiselvan, “Dual image reversible data hiding using trinary assignment and centre folding strategy with low distortion,” J. Vis. Commun. Image Represent., vol. 61, May 2019. \href{https://doi.org/10.1016/j.jvcir.2019.03.022}{Link}}
+		\item{V.Thanikaiselvan, S.Shastri, and S.Ahmad, “Information hiding: Steganography,” Stud. Comput. Intell., vol. 660, 2017. \href{https://doi.org/10.1007/978-3-319-44790-2\_4}{Link}}
+    \item{S.Shastri and V.Thanikaiselvan, “Dual Image Reversible Data Hiding Using Rhombus Prediction,” in 2019 International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN), 2019. \href{https://doi.org/10.1109/ViTECoN.2019.8899667}{Link}}
+   \end{itemize}
 %-------------------------------------------
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.15)  18 NOV 2024 00:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.15)  18 NOV 2024 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -180,27 +180,51 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip54
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 16.
+) (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
+) (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2024/07/07 v2.1c lastpage: 2.09 or 2e? (HMM)
+ (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2024/07/07 v2.1c Decide which 2e lastpage version to use (HMM)
+ (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+Package: lastpagemodern 2024-07-07 v2.1c Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count275
+) 
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
  (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2024/07/23 v4.3.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip55
-\f@nch@O@elh=\skip56
-\f@nch@O@erh=\skip57
-\f@nch@O@olh=\skip58
-\f@nch@O@orh=\skip59
-\f@nch@O@elf=\skip60
-\f@nch@O@erf=\skip61
-\f@nch@O@olf=\skip62
-\f@nch@O@orf=\skip63
+\f@nch@headwidth=\skip69
+\f@nch@O@elh=\skip70
+\f@nch@O@erh=\skip71
+\f@nch@O@olh=\skip72
+\f@nch@O@orh=\skip73
+\f@nch@O@elf=\skip74
+\f@nch@O@erf=\skip75
+\f@nch@O@olf=\skip76
+\f@nch@O@orf=\skip77
 ) (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count275
+\babel@savecnt=\count276
 \U@D=\dimen151
 \l@unhyphenated=\language79
  (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count276
+\bbl@dirlevel=\count277
 
 *************************************
 * Local config file bblopts.cfg used
@@ -226,8 +250,8 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \ar@mcellbox=\box53
 \extrarowheight=\dimen153
 \NC@list=\toks23
-\extratabsurround=\skip64
-\backup@length=\skip65
+\extratabsurround=\skip78
+\backup@length=\skip79
 \ar@cellbox=\box54
 )
 \TX@col@width=\dimen154
@@ -235,95 +259,113 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \TX@old@col=\dimen156
 \TX@target=\dimen157
 \TX@delta=\dimen158
-\TX@cols=\count277
+\TX@cols=\count278
 \TX@ftn=\toks24
 ) (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count278
+\l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box55
 ) (shounak_shastri_resume.aux)
 \openout1 = `shounak_shastri_resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
  (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count279
+\scratchcounter=\count280
 \scratchdimen=\dimen159
 \scratchbox=\box56
-\nofMPsegments=\count280
-\nofMParguments=\count281
+\nofMPsegments=\count281
+\nofMParguments=\count282
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count282
+\MPscratchCnt=\count283
 \MPscratchDim=\dimen160
-\MPnumerator=\count283
-\makeMPintoPDFobject=\count284
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks26
 )
-Package hyperref Info: Link coloring ON on input line 92.
+Package hyperref Info: Link coloring ON on input line 95.
  (shounak_shastri_resume.out) (shounak_shastri_resume.out)
 \@outlinefile=\write3
 \openout3 = `shounak_shastri_resume.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 95.
+(Font)              <10.95> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 95.
+(Font)              <8> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 95.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 95.
+(Font)              <6> on input line 98.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 98.
  (C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+Overfull \hbox (2.46245pt too wide) in paragraph at lines 147--150
+[][]    
+ []
+
+
+Overfull \hbox (2.46245pt too wide) in paragraph at lines 150--153
+[][]    
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 162.
+(C:\Users\shoun\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [1
 
 {C:/Users/shoun/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
-[2] (shounak_shastri_resume.aux)
+[2] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(shounak_shastri_resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `shounak_shastri_resume.out' has not changed.
-(rerunfilecheck)             Checksum: 0298DE5A4F29ED2B6FAC465FCFF0C829;501.
+(rerunfilecheck)             Checksum: 555D095466298E2AC50AE27EC5BA4258;518.
  ) 
 Here is how much of TeX's memory you used:
- 10629 strings out of 474486
- 169003 string characters out of 5743754
- 1950542 words of memory out of 5000000
- 32783 multiletter control sequences out of 15000+600000
- 564019 words of font info for 57 fonts, out of 8000000 for 9000
+ 10821 strings out of 474486
+ 173654 string characters out of 5743754
+ 1949542 words of memory out of 5000000
+ 32958 multiletter control sequences out of 15000+600000
+ 563376 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,433b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\shoun\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\shoun\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on shounak_shastri_resume.pdf (2 pages, 103179 bytes).
+ 75i,11n,79p,470b,573s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\shoun\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/shoun/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on shounak_shastri_resume.pdf (2 pages, 104840 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
