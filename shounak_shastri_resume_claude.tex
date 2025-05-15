@@ -1,0 +1,181 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage{lastpage}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{Shounak Shastri \textbar\ Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Shounak Shastri}
+   & \href{https://shounakshastri.github.io}{https://shounakshastri.github.io}\\
+  Email: \href{mailto: shounak.shastri@gmail.com}{shounak.shastri@gmail.com}
+  & \href{https://www.linkedin.com/in/shounak-shastri/}{https://www.linkedin.com/in/shounak-shastri/}\\
+  Mobile: (+91) 86809 31795 & Address: 2 - Shankar Nagar, Nagpur - 440010\\
+\end{tabular*}
+
+%-----------SUMMARY-------------------
+\section{Summary}
+  \justify
+    Ph.D. in Steganography with 4 years of experience in developing POCs and deploying machine learning (ML) models and algorithms for industrial applications. Proven expertise in computer vision, natural language processing, and large language models. Track record of publishing research in peer-reviewed venues and collaborating with cross-functional teams to deliver scalable AI solutions.
+
+%-----------CORE COMPETENCIES-----------------
+\section{Core Competencies}
+  \begin{itemize}[leftmargin=*, itemsep = -2pt]
+    \item{\textbf{Machine Learning \& AI:}{ Model Development, Algorithm Optimization, Statistical Analysis}}
+    \item{\textbf{Technical Focus:}{ Computer Vision, Natural Language Processing, Large Language Models}}
+    \item{\textbf{Programming:}{ Python, Java (basic), R (basic), MATLAB}}
+    \item{\textbf{ML Frameworks:}{ PyTorch, TensorFlow, Unsloth, Nvidia Tao, OpenCV, ClearML}}
+    \item{\textbf{Development Tools:}{ Git, AWS (EC2, S3)}}
+    \item{\textbf{Business Skills:}{ Cross-functional Collaboration, Technical Documentation, Research}}
+  \end{itemize}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {KamerAI Pvt. Ltd.}{Chennai, TN, IN}
+      {Sr. Software Engineer (Data Science)}{May. 2021 -- Present}
+      \begin{itemize}[leftmargin=*, itemsep = -2pt]
+      \item {Developed multiple POCs including finetuning LLaMA models for document analysis, achieving 96\% accuracy in automated information extraction from 2500+ technical documents.}
+      \item {Built end-to-end machine learning pipelines for industrial computer vision application, implementing object detection and activity recognition algorithms.}
+      \item {Designed and deployed statistical models for productivity analysis across 5 manufacturing stages, achieving 100\% error reduction and an improvement of 12\% in production time.}
+      \item {Collaborated with cross-functional engineering and product teams to architect ML/AI solutions for industrial safety and compliance.}
+      \end{itemize}
+    \resumeSubheading
+      {VIT--Vellore}{Vellore, TN, IN}
+      {Research Assistant}{Jan. 2016 -- Jan. 2020}
+      \begin{itemize}[leftmargin=*, itemsep = -2pt]
+        \item {Led research in algorithm development for secure communication using Steganography, resulting in 6 publications in peer-reviewed venues.}
+        \item {Collaborated with cross-functional teams to develop and validate experimental methodologies.}
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+	\begin{itemize}[leftmargin=*, itemsep = -4pt]
+    \item{S.Shastri and V.Thanikaiselvan, "Dual image reversible data hiding using trinary assignment and centre folding strategy with low distortion", J. Vis. Commun. Image Represent., vol. 61, May 2019. \href{https://doi.org/10.1016/j.jvcir.2019.03.022}{Link}}
+		\item{V.Thanikaiselvan, S.Shastri, and S.Ahmad, "Information hiding: Steganography", Intelligent Techniques in Signal Processing for Multimedia Security. Studies in Computational Intelligence, Vol 660. 2017. \href{https://doi.org/10.1007/978-3-319-44790-2_4}{Link}}
+    \item{S.Shastri and V.Thanikaiselvan, "Dual Image Reversible Data Hiding Using Rhombus Prediction", in 2019 International Conference on Vision Towards Emerging Trends in Communication and Networking (ViTECoN), 2019. \href{https://doi.org/10.1109/ViTECoN.2019.8899667}{Link}}
+    \item{S.Shastri and V.Thanikaiselvan, "Interpolation based dual image reversible data hiding using trinary encoding", Multimedia Tools and Applications, Vol.83, 2024. \href{https://doi.org/10.1007/s11042-023-15574-9}{Link}}
+   \end{itemize}
+
+%-----------PROJECTS-----------------
+\section{Notable Projects}
+  \begin{itemize}[leftmargin=*, itemsep = -2pt]
+    \item {\textbf{Chemical Analysis System:} Developed and finetuned LLaMA-based solution for automated document processing, achieving 96\% accuracy in CoA analysis and validation. Developed end-to-end pipeline for data processing and model deployment  that automatically extracts details from incoming CoAs and presents them in a systematic dashboard.}
+    \item {\textbf{Industrial Safety Solution:} Led development of AI models for PPE and MHE compliance monitoring using computer vision, deployed across multiple client locations. Integrated with existing CCTV infrastructure for real-time monitoring.}
+    \item {\textbf{Manufacturing Optimization:} Architected and deployed AI models across 5 manufacturing stages, resulting in 100\% error reduction and improved efficiency. Developed productivity and ergonomics dashboards using statistical analysis.}
+  \end{itemize}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Vellore Institute of Technology}{Vellore, TN, India}
+      {Doctorate (Ph.D.) in Steganography}{Jun.2015 -- Dec. 2020}
+    \resumeSubheading
+      {Vellore Institute of Technology}{Vellore, TN, India}
+      {Master of Technology (M.Tech.) in Communication Engineering}{Jun.2013 -- May. 2015}
+    \resumeSubheading
+      {K. J. Somaiya College of Engineering}{Mumbai, MH, India}
+      {Bachelor of Engineering (B.E.) in Electronics Engineering}{Aug. 2007 -- July. 2012}
+  \resumeSubHeadingListEnd
+
+%--------TECHNICAL SKILLS------------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=*, itemsep = -2pt]
+    \item{\textbf{Machine Learning:}{ PyTorch, TensorFlow, Unsloth, OpenCV, Scikit-learn, Distributed Computing}}
+    \item{\textbf{Programming:}{ Python, Java (basic), R (basic), MATLAB}}
+    \item{\textbf{Cloud \& Tools:}{ AWS (EC2, S3), Git, Linux}}
+    \item{\textbf{Core Competencies:}{ Statistical analysis, experimental design, model optimization}}
+  \end{itemize}
+
+%-------------------------------------------
+\end{document}
