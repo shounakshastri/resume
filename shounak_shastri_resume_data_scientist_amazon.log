@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.5.19)  23 MAY 2025 03:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.5.31)  31 MAY 2025 20:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -219,9 +219,9 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language45) on input line 105.
+(babel)             (\language5) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language45) on input line 108.
+(babel)             (\language5) on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
@@ -311,48 +311,49 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 97.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Overfull \hbox (2.46245pt too wide) in paragraph at lines 150--153
-[][]    
- []
-
-
-Overfull \hbox (2.46245pt too wide) in paragraph at lines 153--156
-[][]    
- []
-
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 156.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 150.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 150.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (2.46245pt too wide) in paragraph at lines 154--157
+[][]    
+ []
+
+
+Overfull \hbox (2.46245pt too wide) in paragraph at lines 157--160
+[][]    
+ []
+
+
 AED: lastpage setting LastPage
 [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (./shounak_shastri_resume_data_scientist_amazon.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `shounak_shastri_resume_data_scientist_amazon.out' has not changed.
-(rerunfilecheck)             Checksum: 4072D090E4BCDF70B4F709C934551FC4;274.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
+(rerunfilecheck)             Checksum: 56C7311F981BC780C44D93718D977B9A;326.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
  ) 
 Here is how much of TeX's memory you used:
- 6989 strings out of 481239
- 105934 string characters out of 5920377
- 388411 words of memory out of 5000000
- 22118 multiletter control sequences out of 15000+600000
- 537645 words of font info for 43 fonts, out of 8000000 for 9000
+ 6993 strings out of 481239
+ 105973 string characters out of 5920377
+ 388410 words of memory out of 5000000
+ 22120 multiletter control sequences out of 15000+600000
+ 537943 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,45p,756b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,51p,746b,432s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on shounak_shastri_resume_data_scientist_amazon.pdf (2 pages, 107310 bytes).
+Output written on shounak_shastri_resume_data_scientist_amazon.pdf (2 pages, 108005 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
