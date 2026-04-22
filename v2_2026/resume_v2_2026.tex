@@ -1,0 +1,180 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[document]{ragged2e}
+\usepackage{lastpage}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{Shounak Shastri~\textbar\ Page~\thepage\ of~\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\setlength{\footskip}{15pt} % Ensure footskip is large enough
+
+\urlstyle{same}
+
+\raggedbottom\raggedright\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small #3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%  CV STARTS HERE  %%%%%
+
+\begin{document}
+
+%HEADING
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\Large Shounak Shastri}\\
+  Email: \href{mailto: shounak.shastri@gmail.com}{shounak.shastri@gmail.com}
+  & \href{https://www.linkedin.com/in/shounak-shastri/}{https://www.linkedin.com/in/shounak-shastri/}\\
+  Mobile: (+91) 86809 31795 & Address: Chennai, India.\\
+\end{tabular*}
+
+%SUMMARY
+\section{Summary}
+  \justify% \FlushLeft
+  Applied Scientist with a Ph.D. and nearly 5 years of industry experience shipping Computer Vision and Natural Language Processing (NLP) products for global clients at scale. End-to-end ownership from research to deployment, with hands-on experience leading cross-functional teams and managing stakeholders across India, Japan and USA\@. Research foundation in Steganography, with 7 peer-reviewed publications. Key Outcomes: 23\% productivity gain (2 FTE saved), 81\% reduction in compliance violations and 80\% reduction in document processing times. 
+
+%EXPERIENCE
+\section{Experience}
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{Recode Solutions Pvt. Ltd.} (\href{https://www.recodesolutions.com/}{https://www.recodesolutions.com/}) & Chennai, TN, IN \\
+      \textit{\small Technical Analyst~--~Data and Applied Science (Promoted from Sr. Software Engineer)} & \textit{\small May 2021~--~Present} \\
+    \end{tabular*}\vspace{-5pt}
+
+    \textit{
+      \justify%
+      End-to-end ownership of applied ML projects across computer vision and NLP, serving major manufacturing clients in India, Japan and USA\@.}
+      
+    \begin{itemize}[leftmargin=*, itemsep = -1pt]
+      \item {\textbf{LLM Finetuning for structured data extraction:}}
+      \begin{itemize}[itemsep = -1pt]
+        \item {Designed and owned an iterative fine-tuning pipeline for LLaMA 3.2--3B (Hugging Face Transformers + Unsloth) to extract structured JSON from 3M+ scanned chemical analysis documents for a global paint manufacturer in America, deployed fully on-premise on an NVIDIA A1000 GPU.}
+        \item {Bootstrapped annotation with active learning: manually labeled 50 seed documents, used the stage-1 model to pre-annotate 1,000 more (reviewed by human annotators), then scaled to 2,500 documents — reducing annotation cost while maintaining quality.}
+        \item {Defined evaluation framework using exact-match accuracy and field-level F1 scores, supplemented by human spot-checks; implemented a dashboard-based user-edit tracker to surface failure cases and drive future retraining.}
+        \item {Implemented PaddleOCR-based ingestion for scanned PDFs across multi-vendor document formats with varying schemas; designed JSON output structure in collaboration with database and UI teams.}
+        \item {Reduced document processing latency by 80\% compared to manual workflows and contributed to patent documentation for the automated extraction architecture.}
+      \end{itemize}\vspace{-1pt}
+      \item {\textbf{Computer Vision \& Action Recognition for Manufacturing Productivity Analytics}}
+        \begin{itemize}[itemsep = -1pt]
+          \item {Led full-cycle development and multi-site deployment of a real-time action recognition system across 20 production-line stations for a leading Indian 2-wheeler manufacturer (3 plants) and a leading Indian passenger vehicle manufacturer (14 stations, 2 shifts); additionally deployed a warehouse efficiency monitoring system for a Japanese automotive client (25 stations) processing 16 hours of footage nightly.}
+          \item {Fine-tuned EfficientNet-based video classifiers using NVIDIA TAO Toolkit for upto 15 action classes per station; mitigated class imbalance via augmentation and sample-capping; optimized inference pipeline with ONNX (internal testing) and TensorRT (deployment) on NVIDIA A1000 class GPUs.}
+          \item {Designed VA/NVA classification logic in collaboration with client operations teams; built shift-wise dashboards covering cycle analysis, deployment adherence, REBA/RULA ergonomics scores, and operator wise Yamazumi charts.}
+          \item {Built the company-standard annotation and data-cleaning tool adopted across all productivity deployments; trained 2 junior AI engineers on the full ML pipeline; managed end-to-end client engagements across India and Japan; led 5 additional POCs for clients in India, Australia, and Dubai.}
+          \item {Achieved 23\% productivity improvement and 2 FTE saved at the Indian 2-wheeler manufacturer; 100\% error elimination across 7 stations. Contributed to patent documentation for the action recognition architecture.}
+        \end{itemize}\vspace{-1pt}
+      \item{\textbf{Object Detection for Safety and Compliance Monitoring}}
+        \begin{itemize}[itemsep = -1pt]
+          \item {Trained and deployed a YOLOv4 object detection model to monitor PPE compliance (helmets, goggles, gloves, vests) and MHE presence (forklifts, trolleys) across the CCTV network of a Japanese automotive client's warehouses and factories in real time.}
+          \item {Set up an end-to-end annotation pipeline using CVAT on an internal server; instructed and managed a team of junior annotators; selected YOLOv4 for its inference speed and favorable licensing conditions.}
+          \item {Optimized detection confidence thresholds per object class to minimize false positives in cluttered warehouse environments with variable lighting; balanced precision-recall tradeoffs to ensure alarm fatigue did not undermine operator trust in the system.}
+          \item {Delivered an 81\% reduction in overall compliance violations; built a live violation-reporting dashboard integrating real-time model output.}
+        \end{itemize}\vspace{-1pt}
+    \end{itemize}\vspace{-1pt}\item
+
+
+
+% EDUCATION
+\section{Education}
+  \vspace{-1pt}
+  \item
+    \textbf{Doctorate (Ph.D.) in Electronics and Communication Engineering} \hfill {Jun 2015~--~Dec 2020} \\
+    \textit{Vellore Institute of Technology} \hfill \textit{Vellore, TN, India}
+  
+  \vspace{-5pt}
+    \begin{itemize}[leftmargin=*, itemsep = -2pt]
+      \item \textit{Research: }Published 7 peer-reviewed papers on Steganography Algorithms and Secure Communication; received 2 research awards during the program. \textit{ORCID Link:} \href{https://orcid.org/0000-0002-2247-9046}{https://orcid.org/0000-0002-2247-9046}
+      \item \textit{Teaching \& Mentoring: }Taught Image Processing and Signal Processing to 60+ students and mentored 30+ undergraduates, leading to conference presentations and research prototypes.
+    \end{itemize}
+
+  \item
+    \textbf{Master of Technology (M.Tech.) in Communication Engineering} \hfill {Jun 2013~--~May 2015} \\
+    \textit{Vellore Institute of Technology} \hfill \textit{Vellore, TN, India}
+  \vspace{2pt}
+  \item    
+    \textbf{Bachelor of Engineering (B.E.) in Electronics Engineering} \hfill {Aug 2007~--~Jul 2012} \\
+    \textit{K. J. Somaiya College of Engineering} \hfill \textit{Mumbai, MH, India}
+
+  
+%SKILLS
+\section{Technical Skills \& Core Competencies}
+	\begin{itemize}[leftmargin=*, itemsep = -2pt]
+    \item{\textbf{Programming \& Development:} Python, MATLAB, SQL, Git, Linux}
+    \item{\textbf{Machine Learning \& AI:} Deep Learning, Computer Vision, Natural Language Processing (NLP), LLMs, SLMs, Action Recognition, Object Detection, Generative AI, Statistical Modeling, Numerical Optimization, Experimental Design, A/B Testing, Hypothesis Testing, Predictive Analytics} 
+		\item{\textbf{ML, AI \& Data Science Toolkits:} PyTorch, TensorFlow, Hugging Face Transformers, Unsloth, YOLO (Ultralytics), OpenCV, Nvidia TAO, NumPy, SciPy, Scikit-learn, Pandas, Matplotlib, PaddleOCR, ONNX, TensorRT}
+		\item{\textbf{MLOps \& ML Model Deployment:} Docker, ClearML, AWS (EC2, S3)}
+    % \item{\textbf{Leadership \& Collaboration:} Cross-functional Leadership, Stakeholder Management, Technical Guidance \& Mentoring}
+    
+	\end{itemize}
+\end{document}
+ 
